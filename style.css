@@ -1,0 +1,160 @@
+body{
+    background-color: rgb(39, 43, 57);
+    margin: 0;
+    padding: 0;
+}
+
+/* ----- header ----- */
+header{
+    display: flex;
+    color: rgb(32, 94, 122);
+    background-color: rgb(0, 0, 0);
+    font-size: 3vh;
+    justify-content: center;
+    box-shadow: 0px 10px 10px rgb(32, 94, 122);
+}
+
+#header{
+    font-size: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+/* ----- main ----- */
+
+/* #content{
+    margin-left: 5vw;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10vh;
+    background-color: rgba(240, 255, 255, 0.536);
+    border-radius: 50px;
+    height: 70vh;
+    width: 60vw;
+    box-shadow: 10px 10px 10px white, 10px -10px 10px white, -10px -10px 10px white,  -10px 10px 10px white;
+} */
+
+#content{
+    position: fixed;
+    top: 9%;
+    left: 3%;
+    margin-top: 10vh;
+    background-color: rgba(240, 255, 255, 0.536);
+    border-radius: 50px;
+    height: 70vh;
+    width: 20vw;
+    box-shadow: 10px 10px 10px white, 10px -10px 10px white, -10px -10px 10px white,  -10px 10px 10px white;
+}
+
+#H-content{
+    position: fixed;
+    z-index: -1;
+    top: 9%;
+    left: 27%;
+    margin-top: 10vh;
+    background-color: rgba(240, 255, 255, 0.536);
+    border-radius: 50px;
+    height: 70vh;
+    width: 46vw;
+    box-shadow: 10px 10px 10px white, 10px -10px 10px white, -10px -10px 10px white,  -10px 10px 10px white;
+}
+
+#C-content{
+    position: fixed;
+    top: 9%;
+    right: 3%;
+    margin-top: 10vh;
+    background-color: rgba(240, 255, 255, 0.536);
+    border-radius: 50px;
+    height: 70vh;
+    width: 20vw;
+    box-shadow: 10px 10px 10px white, 10px -10px 10px white, -10px -10px 10px white,  -10px 10px 10px white;
+}
+
+/* ----- footer ----- */
+footer{
+    color: aliceblue;
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+}
+
+
+/* ----- costume----- */
+#rock{
+    margin-top: 7vh;
+}
+#C-rock{
+    margin-top: 7vh;
+}
+
+#txt{
+    position: fixed;
+    font-size: 4vh;
+    margin-top: 1vh;
+    margin-left: 7vw;
+}
+#H-txt{
+    position: fixed;
+    font-size: 4vh;
+    margin-top: 1vh;
+    margin-left: 20vw;
+}
+#C-txt{
+    position: fixed;
+    font-size: 4vh;
+    margin-top: 1vh;
+    margin-left: 4vw;
+}
+
+img{
+    user-select: none;
+    transition: 0.5s;
+    margin-top: 0;
+    border: 5px solid rgb(32, 94, 122);
+    width: 9vw;
+    height: 18vh;
+    margin-left: 5.5vw;
+    margin-bottom: 0.5vh;
+    border-radius: 50%;
+}
+
+#C-content > div > img{
+    margin-top: 0;
+    border: 5px solid black;
+    width: 9vw;
+    height: 18vh;
+    margin-left: 5.5vw;
+    margin-bottom: 0.5vh;
+}
+
+#rockimg{
+    position: fixed;  
+    top: 26%;
+}
+
+#paperimg{
+    position: fixed;  
+    top: 46%;
+}
+
+#scissorimg{
+    position: fixed;  
+    top: 66%;
+}
+
+#C-rockimg{
+    position: fixed;  
+    top: 26%;
+}
+
+#C-paperimg{
+    position: fixed;  
+    top: 46%;
+}
+
+#C-scissorimg{
+    position: fixed;  
+    top: 66%;
+}
+
