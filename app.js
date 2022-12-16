@@ -38,7 +38,7 @@ const random = () =>{
 
 //ref func
 const ref = () =>{
-    scoretxt.innerHTML = `${player_score} You || Your computer ${comp_score}`
+    scoretxt.innerHTML = `${player_score} Te || Számitógép ${comp_score}`
 }
 
 //coloring and design
